@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		6F60EB54242A6E1900B543E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F60EB52242A6E1900B543E5 /* Main.storyboard */; };
 		6F60EB56242A6E1F00B543E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F60EB55242A6E1F00B543E5 /* Assets.xcassets */; };
 		6F60EB59242A6E1F00B543E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F60EB57242A6E1F00B543E5 /* LaunchScreen.storyboard */; };
+		6F60EB61242A74EA00B543E5 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F60EB60242A74EA00B543E5 /* credentials.plist */; };
 		A0E7B49F2542D2A41B80E798 /* Pods_google_SignIn_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A24BDF43AEDF88ED0678EA5 /* Pods_google_SignIn_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		6F60EB55242A6E1F00B543E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F60EB58242A6E1F00B543E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F60EB5A242A6E1F00B543E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F60EB60242A74EA00B543E5 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				07BF6EC204628916B3FA1238 /* Pods-google_SignIn_Demo.debug.xcconfig */,
 				29CBF67FA3F33E8697260F49 /* Pods-google_SignIn_Demo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,7 @@
 				6F60EB55242A6E1F00B543E5 /* Assets.xcassets */,
 				6F60EB57242A6E1F00B543E5 /* LaunchScreen.storyboard */,
 				6F60EB5A242A6E1F00B543E5 /* Info.plist */,
+				6F60EB60242A74EA00B543E5 /* credentials.plist */,
 			);
 			path = google_SignIn_Demo;
 			sourceTree = "<group>";
@@ -154,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F60EB59242A6E1F00B543E5 /* LaunchScreen.storyboard in Resources */,
+				6F60EB61242A74EA00B543E5 /* credentials.plist in Resources */,
 				6F60EB56242A6E1F00B543E5 /* Assets.xcassets in Resources */,
 				6F60EB54242A6E1900B543E5 /* Main.storyboard in Resources */,
 			);
